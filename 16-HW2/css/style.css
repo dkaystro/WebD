@@ -1,0 +1,92 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+.header-container {
+	width: 100%; 
+	height: 80px; 
+	background-color: #CCE3F6;
+}
+
+.header-container h1 {
+	font-size:40px;
+	font-family:'Comfortaa';
+	text-align: center;
+	line-height: 80px;
+	font-weight: normal;
+}
+
+.bar{
+	width: 100%; 
+	height: 30px; 
+	background-color: #8AB9E0;
+}
+.navig_gorizontal {
+    padding: 4px; 
+}
+.navig_gorizontal li{
+	margin: 5px;
+	display: inline;
+	line-height: 19px;
+	
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Comfortaa';
+}
+a:visited {
+    color: #162E43;
+   }
+a:active {
+    color: #C9CDD0;
+   }
+
+.background {
+	height: 800px;
+	background-image: url(../img/2.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+
+ .main_text { 
+    padding: 50px 30px;/* Убираем отступы */
+   }
+
+.main_text {
+	font-family: 'Arial';
+	font-size: 20px;
+	font-weight: serif;
+}
+
+.footer {
+	width: 100%; 
+	height: 40px;
+	background-color: #3D6B90;
+}
+
+.footer_text {
+	color: white;
+	font-family: 'Arial';
+	padding: 5px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
