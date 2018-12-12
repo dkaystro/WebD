@@ -1,0 +1,173 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+main {
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Playfair Display';
+}
+
+a:visited {
+    color: green;
+   }
+
+a:active {
+    color: white;
+   }
+
+ h2 {
+   	font-size: 20px;
+   }
+
+img {
+	height: 220px;
+	width: 220px;
+	border-radius: 220px; 
+}
+
+.page {
+	font-family: 'Playfair Display';
+}
+
+.header {
+	height: 70px;
+	width: 100%;
+	background-color: yellow;	
+	box-sizing: border-box;
+	position: fixed;
+
+}
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	height: 67px;
+	width: 150px;
+	background: url(../img/logo.png) 100% 100% no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu {
+	 display: inline-block;
+	 font-size: 20px;
+	 margin-right: 20px;
+}
+
+.menu li {
+	 display: inline-block;
+	 margin: 10px;
+}
+
+
+.top-container {
+	height: 500px;
+	width: 100%;
+	min-width: 1200px;
+	background-image: url(https://casinomacau.kz/wp-content/uploads/2018/11/1-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-position: 0 -160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.top-text{
+	color: white;
+	font-weight: bold;
+	font-size: 80px;
+	
+
+}
+
+.center {
+	/*border: 2px solid red;*/
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.about, .services {
+	padding: 10px;
+	width: 700px;
+	height: 100px;
+	box-shadow: 0 14px 28px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.about-text {
+	padding-top: 20px;
+}
+
+
+.promo {
+	width: 700px;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.promo1, .promo2, .promo3 {
+	height: 270px;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.service-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.sc-img {
+	height: 100px;
+	width: 100px;
+}
+
+
+.sc-container {
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.footer-container {
+	height: 70px;
+	width: 100%;
+	background-color: yellow;	
+	display: flex;
+	align-items: center;
+}
+
+.text-f	{
+	margin-left: 20px;
+	color: green;
+}
+
+
