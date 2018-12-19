@@ -1,0 +1,78 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+html {
+	font-family: 'Playfair Display';
+}
+
+h1 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.header-container, .footer-container {
+	width: 100vw;
+	height: 60px;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.top, .bottom {
+	color: white;
+	margin-left: 20px;
+}
+
+.center {
+	width: 100vw;
+	height: calc(100vh - 120px - 40px);
+	min-height: 420px;
+}
+
+.container {
+	width: 80vw;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.colomn {
+	width: calc((80vw - 100px)/3);
+	border: 2px solid grey;
+	border-radius: 4px;
+	align-self: start;
+}
+
+p {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image_Sm {
+	background-image: url(../img/Sm.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image_Ms {
+	background-image: url(../img/Mask.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image_Fr {
+	background-image: url(../img/Ford.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+
