@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+html {
+	font-family: 'Playfair Display';
+}
+
+h1 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.header-container, .footer-container {
+	width: 100vw;
+	height: 60px;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+}
+
+.top, .bottom {
+	color: white;
+	margin-left: 20px;
+}
+
+.center {
+	width: 100vw;
+	min-height: calc(100vh - 145px);
+}
+
+.left_first, .right_first, .left_second, .right_second {
+	width: 90vw;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+
+.right_second {
+	margin-bottom: 15px;
+}
+
+p {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+@media screen and (min-width: 668px) {
+	.center {
+		width: 90vw;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		min-height: calc(100vh - 120px);
+	}
+
+	
+	.second_container, .first_container {
+		display: flex;
+		width: 70vw;
+
+	}
+
+	.left_first, .right_first, .left_second, .right_second {
+		width: calc((70vw - 20px)/2);
+		margin: auto;
+		border: 2px solid grey;
+		border-radius: 4px;
+		margin-top: 10px;
+ 		
+	}
+	.second_container {
+		margin-bottom: 15px;
+	}
+	
+}
+
+
+
+
+
